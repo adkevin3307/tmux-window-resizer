@@ -16,7 +16,7 @@ set -g @plugin 'adkevin3307/tmux-window-resizer'
 
 ## Configure
 
-The default binding for this plugin is `<prefix> + S`. You can change it by adding this line with your desired key.
+The default binding for this plugin is `<prefix> + R`. You can change it by adding this line with your desired key.
 
 ```
 set -g @tmux-window-resizer-key '<key>'
