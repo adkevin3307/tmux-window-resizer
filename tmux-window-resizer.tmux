@@ -14,4 +14,4 @@ function option() {
     echo "$OPTION"
 }
 
-tmux bind-key "$(option "@tmuxioner-window-resizer-key" "R")" command-prompt -p "Resize:" "run-shell \"${DIRECTORY}/scripts/resize.sh %%\""
+tmux bind-key "$(option "@tmux-window-resizer-key" "R")" command-prompt -p "Resize:" "run-shell \"${DIRECTORY}/scripts/resize.sh %%\""
